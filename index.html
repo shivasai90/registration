@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+       <div>
+            <h1 id="h1">Registration form</h1><br><br>
+            <h2 id="h2">Register here</h2><br><br>
+            </div>
+            <div class="container">
+                <form class="form">
+            <label for="uname" class="label"><b>username</b></label><br>
+                <input type="text" name="fname" id="name" placeholder="enter first name" required><br><br>
+
+                <label for="umail" class="label"><b>email</b></label><br>
+                <input type="email" placeholder="xyz123@gmail.com" name="Email" id="Email" required><br><br> 
+
+                <label for="mobile number" class="label"><b>Mobile Number</b></label>
+                <input type="number" placeholder="enter number" name="mobile" id="mobile" required><br><br>
+
+                <label for="story" class="label"><b>ADDRESS</b></label><br><textarea name="story" id="story"
+                rows="3" cols="20" placeholder="enter address"></textarea><br><br>
+
+                <label class="label"><b>sex</b></label>
+                <input type="radio" name="gender" value="female"><label class="label">Female</label>
+                <input type="radio" name="gender" value="male"><label class="label">Male</label><br><br>
+
+                <label class="=label"><b>BirthDay</b></label>
+                <input type="date" placeholder="DD/MM/YYYY"><br><br>
+
+                <label class="label"><b>Graduation</b></label>
+                <select>
+                    <option value="BE/B.tech">BE/B.tech</option>
+                    <option value="BCA">BCA</option>
+                    <option value="BA">BA</option>
+                    <option value="others">others</option>
+                </select><br><br>
+
+                <label class="label"><b>Technologies known</b></label>
+                <input type="checkbox" value="java" class="label">java
+                <input type="checkbox" value="C" class="label">C
+                <input type="checkbox" value="C++" class="label">C++
+                <input type="checkbox" value="JavaScript" class="label">JavaScript<br><br>
+
+                <button type="submit">Register</button>
+                <button type="submit">Clear</button>
+            </form>
+        </div>
+    </body>
+</html>

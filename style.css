@@ -1,0 +1,22 @@
+#h1{
+    text-align: center;
+}
+#h2{
+    text-align: center;
+    margin: auto;
+}
+.form{
+    margin-left: 200px;
+}
+.container{
+    padding:50px;
+    width:700px;
+    border:2px solid black;
+    border-radius: 20px;
+    margin: auto;
+    background-color: rgb(166, 202, 202);
+
+.label{
+    font-size: 18px;
+    color: black;
+}
